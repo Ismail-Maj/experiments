@@ -22,7 +22,7 @@ const LOOP_SIZE: usize = 15;
 const LOOP_COUNT: usize = 20 * MULTIPLIER;
 const OFFSET_GAP: usize = LOOP_SIZE * LOOP_COUNT;
 
-const THREAD_COUNT: usize = 16;
+const THREAD_COUNT: usize = 15;
 
 fn main() {
     let shared_counter = Arc::new(AtomicUsize::new(0));
